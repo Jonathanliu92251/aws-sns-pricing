@@ -1,0 +1,25 @@
+{
+    "cloudantNoSQLDB": [
+        {
+            "credentials": {
+                "username": "1f3b2b78-6580-45ef-aa5d-c7c4f560e8f6-bluemix",
+                "password": "098433a57b051da9099e221f2ddbdfd617150fb1d37e4c4366221de617ef2641",
+                "host": "1f3b2b78-6580-45ef-aa5d-c7c4f560e8f6-bluemix.cloudant.com",
+                "port": 443,
+                "url": "https://1f3b2b78-6580-45ef-aa5d-c7c4f560e8f6-bluemix:098433a57b051da9099e221f2ddbdfd617150fb1d37e4c4366221de617ef2641@1f3b2b78-6580-45ef-aa5d-c7c4f560e8f6-bluemix.cloudant.com"
+            },
+            "syslog_drain_url": null,
+            "volume_mounts": [],
+            "label": "cloudantNoSQLDB",
+            "provider": null,
+            "plan": "Lite",
+            "name": "jon-iot-01-cloudantNoSQLDB",
+            "tags": [
+                "data_management",
+                "ibm_created",
+                "lite",
+                "ibm_dedicated_public"
+            ]
+        }
+    ]
+}

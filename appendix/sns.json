@@ -1,0 +1,22 @@
+{
+  "Type" : "Notification",
+  "MessageId" : "testtesttesttesttesttesttesttesttest",
+  "TopicArn" : "arn:aws:sns:us-east-1:278350005181:daily-aggregated-price-list-api",
+  "Subject" : "[AWS Pricing Update] We've published new versions of the service offer files.",
+  "Message" : {
+    "message":"Hello,\n\nYou have received this notification because you subscribed to receiving updates from SNS topic arn:aws:sns:us-east-1:278350005181:daily-aggregated-price-list-api\n\nWe've published a new version of the offer file for Service AmazonRDS. Use the following URLs to download the file:\n",
+    "json":   "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonRDS/current/index.json",
+    "CSV": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonRDS/current/index.csv",
+    "Region Index Url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonRDS/current/region_index.json",
+    "message2": "We've published a new version of the offer file for Service AmazonRDS. Use the following URLs to download the file:\n",
+    "JSON Format" : "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonRDS/current/index.json",
+    "CSV Format" : "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonRDS/current/index.csv",
+    "Region Index Url" : "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonRDS/current/region_index.json",
+    "More Info": "To learn more about the file formats, see  http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-changes.html.\n\nThank You,\nAmazon Web Services Team"
+    },
+  "Timestamp" : "2018-02-01T17:00:55.398Z",
+  "SignatureVersion" : "1",
+  "Signature" : "RCAuo0uNjQOmpjD1NmaFTnHH7JmrmvnstwrvRB+/utONvkLHTCvWZyiv0Fbb6gMv1dg9+FezJLH4GHHwWXcoUK6EhryKMWlLilkO8NzWECm2UaaycdhuZvSYFlaiPQytGza5O2U69FsNWeU73ytux1aTIcAfZjUR9GK+WQ8UG/wgps7YUHKYGmkco2GUl0RaznvORnrR05g8tcbYUOogQNRamCV8ZNsPxlmNvGX/wS+/wOG9OJis8s86dDmlzzHbLq5EeCE4QN+uBJ/uvdSLxGqm9hNO7q402ikWL8SejPEfzYye+PCATG+EWf9wxSRXLPhS6dYiCH0N0wyerjW+rQ==",
+  "SigningCertURL" : "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-433026a4050d206028891664da859041.pem",
+  "UnsubscribeURL" : "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:278350005181:daily-aggregated-price-list-api:ff109515-2b5e-4101-864b-6849ba0e2f20"
+}
